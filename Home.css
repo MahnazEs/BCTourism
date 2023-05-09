@@ -1,0 +1,271 @@
+body{
+    color: rgb(255, 255, 255);
+    margin:0;
+    padding-top: 10px;
+    font-family: roboto;
+    font-size: 12px;
+    text-align: center;
+}
+p{
+    color: black;
+}
+*{
+    font-family: roboto;
+    }
+    .aboutUs h6{
+        font-weight: bold;
+    }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 10vh;
+}
+.container-child{
+    margin-top: 0.5vw;
+}
+.nav,.main{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.logo{
+    flex: 3;
+    background-color: white;
+    padding: 2px;
+    max-width: 10%;
+    min-width: 20%;
+    height: 7vh;
+   /*  padding: 5px;
+    max-width: 35%;
+    height: 10vh; */
+}
+.email{
+    margin-left: 15px;
+    max-width: 10%;
+    max-height: 100%;
+}
+/* .imm{
+    text-align: end;
+    margin-left: 10px;
+}
+.im{
+    display: flex;
+} */
+
+
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+
+
+
+.search-container form {
+    position: relative;
+    margin-left: 30px;
+}
+.search-container form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: rgb(131, 129, 129);
+    cursor: pointer;
+    outline: 0;
+}
+
+
+
+
+.d-flex{
+    margin-left: 50px;
+}
+
+.img{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+ .navigation{
+    flex: 1;
+    display: flex;
+    justify-content: row;
+    background-color: white;
+    padding: 20px;
+} 
+.nav-link, .color, .icon{
+    color: black;
+}
+.nav-item{
+    margin: 5px;
+}
+.nav-item a{
+    color: black;
+}
+
+.video, .image{
+    flex: 3;
+    float: inline-start;
+    background-color: white;
+    justify-content:center;
+    padding: 20px;
+    text-align: center;
+}
+.d-none{
+    display:none;
+}
+.content{
+    flex: 3;
+    float: inline-start;
+    background-color: white;
+    justify-content:center;
+    padding: 20px; 
+}
+.button{
+    color: white;
+    background-color: #2553a1;
+    border-radius: 7px;
+    border: 0ch;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.carousel-caption p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.aboutUs{
+    display: flex;
+    padding: 20px;
+    width: 70vh;
+    min-width: 100%;
+    max-width: 100%;
+}
+.about{
+    text-align: justify ;
+}
+.own-photo{
+    padding-left: 30px;
+    float: left;
+    margin: auto;
+    min-width: 40%;
+    max-width: 60%;
+    text-align: center;
+}
+/* .own-photo{
+    display: flex;
+    margin: auto;
+    width: 30vh;
+    min-width: 40%;
+    max-width: 60%;
+    text-align: center;
+} */
+
+.information{
+    background-color: rgb(218, 211, 211);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 211, 211);
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+ul li{
+    list-style-type: none;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+}  
+.copyright{
+    color: white;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 50px;
+    margin-top: 0%;
+}
+.name{
+    text-align: center;
+}
+
+
+
+
+
+
+
+    /* 
+    .slowFade {
+        display: flex;
+        align-items: flex-start;
+        background: #fff;
+        height: 50vh;
+        overflow: hidden;
+        position: relative;
+    }
+    .slowFade .slide img {
+        display: inline-block;
+        position:absolute;
+        min-width: 100%;
+        min-height: 100%;
+        width: 500px;
+        height: 500px;
+        background: #000;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+        opacity: 0;
+        transform: scale(1.5) rotate(15deg);
+        -webkit-animation: slowFade 32s infinite;
+                animation: slowFade 32s infinite;
+    }
+    .slowFade .slide:nth-child(3) img {
+        -webkit-animation-delay: 8s;
+                animation-delay: 8s;
+    }
+    .slowFade .slide:nth-child(2) img {
+        -webkit-animation-delay: 16s;
+                animation-delay: 16s;
+    }
+    .slowFade .slide:nth-child(1) img {
+        -webkit-animation-delay: 24s;
+                animation-delay: 24s;
+    }
+    @keyframes slowFade {
+        25% {
+            opacity: 1;
+            transform: scale(1) rotate(0);
+        }
+        40% {
+            opacity: 0;
+        }
+    }
+    
+    @-webkit-keyframes slowFade {
+        25% {
+            opacity: 1;
+            transform: scale(1) rotate(0);
+        }
+        40% {
+            opacity: 0;
+        }
+    } */
